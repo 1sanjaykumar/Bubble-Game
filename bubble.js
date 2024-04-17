@@ -61,6 +61,7 @@ function score() {
 start.addEventListener("click", function () {
   if (timer == 60 || timer == 0) {
     starting();
+
     makebubble();
     runtime();
     gethit();
